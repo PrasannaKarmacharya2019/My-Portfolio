@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+    <title>MY PORTFOLIO</title>
+  </head>
+  <body>
+    <div class="Pro">
+      <nav class="desktop-nav" style="border-radius: 10px">
+        <div class="logo">
+          <img src="./assets/erprasanna-logo.png" width="200px" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Profile Section Start -->
+      <section class="profile">
+        <div class="section__pic-container">
+          <div class="box4">
+            <img
+              style="
+                width: 400px;
+                height: 350px;
+                border-radius: 10px;
+                margin-left: 0px;
+              "
+              src="./assets/abc.jpg"
+            />
+          </div>
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Prasanna Karmacharya</h1>
+          <p class="section__text__p2"><span id="element"> </span></p>
+          <p class="section__text__p2"></p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-1"
+              onclick="window.open('./assets/Resume.pdf')"
+            >
+              Download CV
+            </button>
+            <!-- <a class="btn btn-color-1" href="./assets/dummy.pdf" target="_blank">
+            Download CV</a
+          > -->
+            <button class="btn btn-color-2">Contact me</button>
+          </div>
+
+          <div class="social-container">
+            <button onclick="openLinkedInProfile()" style="cursor: pointer">
+              <i
+                class="fa-brands fa-linkedin fa-2xl"
+                style="color: #000000"
+              ></i>
+            </button>
+            <button
+              style="border-style: none; cursor: pointer"
+              onclick="openGithubProfile()"
+            >
+              <i
+                class="fa-brands fa-square-github fa-2xl"
+                style="color: #000000"
+              ></i>
+            </button>
+            <button
+              style="border-style: none; cursor: pointer"
+              onclick="openGithubProfile()"
+            >
+              <i
+                class="fa-brands fa-square-whatsapp fa-2xl"
+                style="color: #000000"
+              ></i>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="about">
+      <p class="section__text__p1">
+        <strong style="margin-left: 3%">Get to know me more</strong>
+      </p>
+      <br />
+      <h2 style="text-align: center; font-size: 3rem">About me:</h2>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            style="object-fit: cover; border-radius: 70px; border: 1px rgba(1, 2, 2, 0.61) double "
+            src="./assets/hi.png"
+            alt="Profile Picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/pngwing.com.png" alt="Experience icon" />
+              <h3>Experience</h3>
+              <p>
+                2 months<br />
+                <strong>Frontend Developer</strong>
+              </p>
+            </div>
+            <div
+              class="details-container"
+              style="border-left: #000000 1px dashed; padding-left: 5px"
+            >
+              <img src="assets/educ.png" alt="Education" />
+              <h3>Education</h3>
+              <p>
+                Bachlor's Degree in Engineeeing<br />
+                <strong>Advanced Engineeing College, Lalitpur</strong>
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <ul>
+              <li>
+                Programming knowledge of languages like C & C++ using Turbo C++
+                and DEV C++
+              </li>
+              <li>Training on Cisco packet tracer and Computer network</li>
+              <li>Participation on basic CCNA Session</li>
+
+              <li>Good knowledge of HTML and CSS(Cascading style Sheet)</li>
+              <li>Computer graphics projects project using Turbo C++</li>
+              <li>Basic Knowledge of SQL and database</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </span></section>
+
+    <section id="experience" >
+
+      <!-- <p class="section__text__p1">Explore my</p> -->
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img 
+                  src="./assets/html.png"
+                  alt="Checkmark"
+                  class="icon"
+                 
+                />
+                <h2>HTML</h2>
+                <p>Experienced</p>
+                <div class="container">
+                  <div class="skills html">100%</div>
+                </div>
+             
+              </article>
+              <article>
+                <img
+                  src="assets/css.png"
+                   alt="Checkmark"
+                  class="icon"
+                />
+                <h2>CSS</h2>
+                <p>Experienced</p>
+                <div class="container">
+                  <div class="skills css">90%</div>
+                </div>
+                
+              </article>
+              <article>
+                <img
+                  src="./assets/mysql.png"
+                  alt="Checkmark"
+                  class="icon"
+                />
+                <h2>MySQL</h2>
+                <p>Experienced</p>
+                <div class="container">
+                  <div class="skills mysql">75%</div>
+                </div>
+               
+              </article>
+              <article>
+                <img
+                  src="./assets/js.png"
+                  alt="Checkmark"
+                  class="icon"
+                />
+                <h2>Javascript</h2>
+                <p>Experienced</p>
+                <div class="container">
+                  <div class="skills js">65%</div>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/atom.png"
+                  alt="Checkmark"
+                  class="icon"
+                />
+                <h2>React</h2>
+                <p>Basic</p>
+                <div class="container">
+                  <div class="skills react">2%</div>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/typescript.png"
+                  alt="Checkmark"
+                  class="icon"
+                />
+                <h2>Typescript</h2>
+                <p>Basic</p>
+                <div class="container">
+                  <div class="skills ts">20%</div>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Experience Section End -->
+
+    <!-- Project Section Start -->
+    <section id="projects" >
+      <p class="section__text__p1">Browse my projects:</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="projects-container" >
+              <img
+                style="margin-top: 20px"
+                src="./assets/img1.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+              <h2 class="experience-sub-title project-title">
+                Smart parking system
+              </h2>
+              <button
+                class="btn btn-color-1 project-btn"
+                onclick="openGithubProject()"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-1 project-btn"
+                style="margin-left: 6px"
+              >
+                Live Demo
+              </button>
+            </div>
+            <div class="projects-container">
+              <img
+                src="./assets/img2.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+              <h2 class="experience-sub-title project-title">
+                Gesture controlled Robot
+              </h2>
+              <button class="btn btn-color-1 project-btn">Github</button>
+              <button
+                class="btn btn-color-1 project-btn"
+                style="margin-left: 6px"
+              >
+                Live Demo
+              </button>
+            </div>
+            <div class="projects-container">
+              <img
+                src="./assets/img2.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+              <h2 class="experience-sub-title project-title">Project 3</h2>
+              <button class="btn btn-color-1 project-btn">Github</button>
+              <button
+                class="btn btn-color-1 project-btn"
+                style="margin-left: 6px"
+              >
+                Live Demo
+              </button>
+            </div>
+            <div class="projects-container">
+              <img
+                src="https://www.munich-business-school.de/insights/wp-content/uploads/2022/12/Werkstudent_Blog-678x381.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+              <h2 class="experience-sub-title project-title">Project 4</h2>
+              <button class="btn btn-color-1 project-btn">Github</button>
+              <button
+                class="btn btn-color-1 project-btn"
+                style="margin-left: 6px"
+              >
+                Live Demo
+              </button>
+            </div>
+            <div class="projects-container">
+              <img
+                src="https://www.uagrantham.edu/wp-content/uploads/2020/11/What-Are-the-Differences-Between-Electric-and-Electronics-Engineering.png"
+                alt="Project 1"
+                class="project-img"
+              />
+              <h2 class="experience-sub-title project-title">Project 5</h2>
+              <button class="btn btn-color-1 project-btn">Github</button>
+              <button
+                class="btn btn-color-1 project-btn"
+                style="margin-left: 6px"
+              >
+                Live Demo
+              </button>
+            </div>
+            <div class="projects-container" style="margin-bottom: 20px">
+              <img
+                src="https://www.tompkinscortland.edu/sites/default/files/styles/max_1300x1300/public/images/electrical-engineering-technology.png?itok=fAsCIdXz"
+                alt="Project 1"
+                class="project-img"
+              />
+              <h2 class="experience-sub-title project-title">Project 6</h2>
+              <button class="btn btn-color-1 project-btn">Github</button>
+              <button
+                class="btn btn-color-1 project-btn"
+                style="margin-left: 6px"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Project Section End -->
+
+
+
+    <!-- contact section start -->
+    <section id="contact" style="display: flex; justify-content: space-between; flex-direction: row; ">
+     
+      <form>
+
+<!-- 1st div -->
+<div class="pahilo" style="display: inline-block; width:50%">
+        <div class="bgcolor" style="display: inline-block;">
+          <h1 class="title">Contact Me</h1>
+          <div class="information1">
+            <div id="name">
+              <label for="Name">Name</label>
+              <input
+                type="text"
+                placeholder="Your name"
+                style="width: 410px; height: 30px"
+              />
+            </div>
+
+            <div id="Email">
+              <label for="Email">E-mail</label>
+              <input
+                type="email"
+                placeholder="Your Email"
+                style="width: 408px; height: 30px"
+              />
+            </div>
+
+            <div id="Phone">
+              <label for="Phone">Phone</label>
+              <input
+                type="number"
+                placeholder="Your Phone"
+                style="width: 400px; height: 30px"
+              />
+            </div>
+
+            <div id="Subject">
+              <label for="Subject">Subject</label>
+              <input
+                type="text"
+                placeholder="Your Subject"
+                style="width: 400px; height: 30px"
+              />
+              <br /><br />
+            </div>
+
+            <div id="gender">
+              <label for="gender">Gender</label>
+              <select name="" style="height: 30px">
+                <option value="">Select a Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+                <label>Choose any option</label>
+              </select>
+              <div id="Message">
+                <label for="Message>">Message</label>
+                <input
+                  type="text"
+                  placeholder="Your Message..."
+                  style="width: 400px; height: 70px"
+                />
+                <br />
+              </div>
+              <button type="submit" class="submit-button">Submit</button>
+         </div>
+       </div>
+    </div>
+     
+ </div>
+ 
+<!-- 1st div end -->
+ <iframe style="display: inline-block; justify-content: center;align-items:center; margin-left: 10%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113032.65322787261!2d85.24373135767756!3d27.708935957714655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu%2044600!5e0!3m2!1sen!2snp!4v1705844650303!5m2!1sen!2snp" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     
+   
+<!-- 2nd div start -->  
+        <div class="second" style="display:inline-block; justify-content: flex-end;align-items: flex-end; width:40%" >
+
+       
+        
+<span class="heading">User Rating</span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>4.1 average based on 254 reviews.</p>
+<hr style="border:3px solid #f1f1f1">
+
+<div class="row">
+  <div class="side">
+    <div>5 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-5"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>150</div>
+  </div>
+ <br />
+ <br />
+
+  <div class="side">
+    <div>4 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-4"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>63</div>
+  </div>
+  <br />
+  <br />
+
+  <div class="side">
+    <div>3 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-3"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>15</div>
+  </div>
+  <br />
+  <br />
+
+  
+  <div class="side">
+    <div>2 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-2"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>6</div>
+  </div>
+  <br />
+  <br />
+
+  <div class="side">
+    <div>1 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-1"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>20</div>
+  </div>
+</div>
+          </div>  
+
+<!-- 2nd div end -->
+  
+
+  
+  
+  
+<marquee style="font-size:xx-large; color: red;"><strong><i>Thank you for your time and do rate my work!</strong></i></marquee>
+         
+<h3 style="color: #f1f1f1;">Follow me:</h3>
+
+<button onclick="openLinkedInProfile()" style="cursor: pointer; margin:10px 10px 10px;background: none; border:none ">
+  <i
+    class="fa-brands fa-linkedin fa-2xl"
+    style="color: #000000"
+  ></i>
+</button>
+<button 
+style="cursor: pointer; margin:10px 10px 10px;background: none; border:none "
+  onclick="openGithubProfile()"
+>
+  <i
+    class="fa-brands fa-square-github fa-2xl"
+    style="color: #000000"
+  ></i>
+</button>
+<button
+style="cursor: pointer; margin:10px 10px 10px;background: none; border:none"
+  onclick="openGithubProfile()"
+>
+  <i
+    class="fa-brands fa-square-whatsapp fa-2xl"
+    style="color: #000000"
+  ></i>
+</button>
+<button onclick="openFacebookProfile()" style="cursor: pointer; margin:10px 10px 10px;background:none; border:none">
+  <i class="fa-brands fa-facebook fa-2xl"></i>
+</button>
+
+
+      </form>
+     
+    </section>
+  <h2 style="text-align: center; color: #f1f1f1;"> &copy;2024 All right reserved </h2>
+
+    <script src="main.js">
+
+      function openLinkedInProfile() {
+        window.location.href =
+          "https://www.linkedin.com/in/prasanna-karmacharya-29432b278";
+      }
+      function openGithubProfile() {
+        window.location.href = "https://github.com/PrasannaKarmacharya2019";
+      }
+      function openGithubProject() {
+        window.location.href = "https://github.com/PrasannaKarmacharya2019";
+      }
+      function openFacebookProfile() {
+        window.location.href = "https://www.facebook.com/prasannamank/";
+      }
+
+
+
+    </script>
+  </body>
+</html>
